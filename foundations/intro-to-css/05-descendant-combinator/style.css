@@ -1,0 +1,33 @@
+/* OPTION 1 ..but will aslo color the spaces
+div.container{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+
+*/
+
+/* OPTION 2 .. will color only the lines on which the texts are
+div.container p{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+*/
+
+/* OPTION 3 .. will color only the lines on which the texts are
+div.container p.text{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+*/
+
+
+/* OPTION 4 .. will color only the lines on which the texts are */
+
+div.container p.text{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
