@@ -24,9 +24,17 @@ div.container p.text{
 */
 
 
-/* OPTION 4 .. will color only the lines on which the texts are */
+/* OPTION 4 .. will color only the lines on which the texts are 
 
 div.container p.text{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+*/
+
+/* OPTION 4 .. notice the space. without the space it becomes a chain which wouldn't work her*/
+.container .text{
     color: red;
     background-color: yellow;
     text-align: center;
