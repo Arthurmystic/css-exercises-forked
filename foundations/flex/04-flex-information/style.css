@@ -10,7 +10,38 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
+
+.content {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  /* border: 1px solid red; */
+
+}
+
+
+ /* commented solution below also works, inclusive of max-width:200px */
+.content > *{   /* also .barberry, .chilli, .pepper, .saffron works */1
+  /* display: flex;
+  flex-direction: column; */
+  max-width: 200px;
+  text-align: center;
+  /* gap: 5px;
+  align-items: center; */
+  /* border: 1px solid black; */
+}
+
+
+
+.text{
+  text-align: center;
+}
+
+
 
 /* do not edit this footer */
 .footer {
